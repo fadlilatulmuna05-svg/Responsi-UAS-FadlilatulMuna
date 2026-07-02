@@ -7,11 +7,11 @@
     { "src": "css/**", "use": "@vercel/static" },
     { "src": "manifest.json", "use": "@vercel/static" },
     { "src": "icons/**", "use": "@vercel/static" },
-    { "src": "img/**", "use": " @vercel/static" },
+    { "src": "img/**", "use": "@vercel/static" },
     { "src": "sw.js", "use": "@vercel/static" }
   ],
   "routes": [
-    { "src": "/products(.*)", "dest": "backend/server.js" },
+    { "src": "/produk(.*)", "dest": "backend/server.js" },
     { "src": "/(.*)", "dest": "$1" }
   ]
 }
